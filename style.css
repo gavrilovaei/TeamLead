@@ -146,7 +146,7 @@ body {
 }
 
 .ingredients {
-	padding: 30px 20px 40px;	
+	padding: 30px 20px 40px;
 	background-image: linear-gradient(to right, #e7e6e6ce, #FFFFFF 70%, #e7e6e6ce)
 }
 
@@ -182,8 +182,8 @@ body {
 	font-size: 20px;
 	font-weight: 500;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin-bottom: 0;
 }
 
@@ -221,7 +221,7 @@ body {
 		max-width: 1200px;
 	}
 	.ingredients {
-		padding: 40px 20px 50px;		
+		padding: 40px 20px 50px;
 	}
 	.ingredients .container {
 		flex-direction: row;
