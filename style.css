@@ -315,7 +315,7 @@ p {
 }
 
 .promo-doctor .doctor {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -378,6 +378,7 @@ margin-bottom: 15px;
 	}
 	.promo-doctor h2 {
 		font-size: 29px;
+		margin-bottom: 50px;
 	}
 }
 
@@ -399,7 +400,12 @@ margin-bottom: 15px;
 		
 	}
 
+	.promo-doctor p {
+		font-size: 20px;
+	}
+
 	.promo-doctor ol {
 		padding-left: 40px;
+		font-size: 20px;
 	}
 }
