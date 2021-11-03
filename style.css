@@ -128,7 +128,8 @@ p {
 	color: #ffcc00;
 }
 
-.video-bg__content .btn, .ingredients .btn {
+.video-bg__content .btn, .ingredients .btn,
+.promo-doctor .btn {
 	display: block;
 	width: 300px;
 	height: 56px;
@@ -290,6 +291,59 @@ p {
 	display: block;
 }
 
+.promo-doctor {
+	background-image: linear-gradient(to bottom, #ffffff 30%, #e7e6e6ce 40%, #ffffff 80%);	
+}
+
+.promo-doctor .container {
+	max-width: 1200px;
+	padding: 30px 10px 50px;
+	margin: 0 auto;
+}
+
+.promo-doctor .top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+
+.promo-doctor .photo {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.promo-doctor .doctor {
+	width: 90%;
+	margin: auto;
+}
+
+.promo-doctor .description {
+	width: 50%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.promo-doctor h2 {
+	padding-left: 15%;
+	color: #320B61;
+}
+
+.promo-doctor ol {
+display: flex;
+justify-content: space-between;
+list-style-position: inside;
+padding-left: 5px;
+margin-bottom: 15px;
+}
+
+.promo-doctor li {
+	width: 30%;
+	margin-right: 3%;
+}
+
+
 @media (min-width: 768px) {
 	.promo .product {
 		flex-direction: row;
@@ -307,6 +361,24 @@ p {
 	.ingredients .container {
 		flex-direction: row;
 	}
+
+	.promo-doctor {
+		background-image: linear-gradient(to bottom, #ffffff 40%, #e7e6e6ce 65%, #ffffff 90%);	
+	}
+	.promo-doctor .container {
+		
+		padding: 40px 10px 60px;
+		
+	}
+	.promo-doctor ol {
+		
+		padding-left: 5px;
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
+	.promo-doctor h2 {
+		font-size: 29px;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -319,5 +391,15 @@ p {
 	
 	.wrapper .right {
 		right: -15%;
+	}
+
+	.promo-doctor .container {
+		
+		padding: 50px 10px 75px;
+		
+	}
+
+	.promo-doctor ol {
+		padding-left: 40px;
 	}
 }
