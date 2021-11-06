@@ -231,8 +231,15 @@
 						<div class="new-price">999&nbsp;&#8381;</div>
 					</div>
 					<form class="form-bottom" id="form-bottom" method="post" action="#" target="_blank">
-						<input type="text" name="name" placeholder="Введите Ваше имя:" required>
-						<input type="number" name="tel" placeholder="Ваш телефон:" required>
+						<div class="row">
+							<input type="text" name="name" id="name" placeholder="Ваше имя:" required>
+							<label for="name">Например: Иван</label>
+
+						</div>
+						<div class="row">
+							<input type="number" name="tel" id="tel" placeholder="Ваш телефон(только цифры):" required>
+							<label for="tel">Например: 79281587616</label>
+						</div>
 						<input class="button" type="submit" name="sab" value="Заказать">
 					</form>
 				</div>

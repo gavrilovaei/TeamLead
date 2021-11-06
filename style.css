@@ -465,29 +465,43 @@ p {
 	width: 270px;
 	height: 56px;
 	border-radius: 30px;
-	font-size: 20px;
-	line-height: 20px;
+	font-size: 16px;
+	line-height: 1.2;
 	text-align: center;
 	margin-bottom: 30px;
 	cursor: pointer;
 }
 
 .form-bottom .button, .form-bottom .button:hover {
-	cursor: pointer;
-	background: #F7C847;
+	background-color: #F7C847;
 	box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
 }
 
-input[type='number'],
-input[type="number"]:hover,
-input[type="number"]:focus {
-    appearance: none;
-    -moz-appearance: textfield;
+input[type='number'], input[type="number"]:hover, input[type="number"]:focus {
+	appearance: none;
+	-moz-appearance: textfield;
+}
+
+.row {
+	position: relative;
+}
+
+.row label {
+	display: none;	
+	color: #aaa;	
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	font-size: 12px;	
+	line-height: 1.2;	
+}
+
+.row input:focus+label, .row input:hover+label, .row input:valid+label {
+	display: block;	
 }
 
 @media (min-width: 768px) {
@@ -555,7 +569,6 @@ input[type="number"]:focus {
 		text-align: center;
 		margin-bottom: 30px;
 	}
-
 }
 
 @media (min-width: 1024px) {
